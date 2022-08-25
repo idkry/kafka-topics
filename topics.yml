@@ -1,7 +1,7 @@
 - topic: example-with-time-based-retention
   partitions: 8
   replication_factor: 1
-  owner: test-cam
+  owner: cam
   config:
     retention.ms: 604800000
     segment.ms: 86400000
@@ -9,7 +9,7 @@
 - topic: example-topic-with-size-based-retention
   partitions: 16
   replication_factor: 1
-  owner: test-cam
+  owner: qnm
   config:
     retention.bytes: 1073741824
     segment.bytes: 104857600
@@ -17,6 +17,6 @@
 - topic: example-topic-with-compaction
   partitions: 32
   replication_factor: 1
-  owner: test-cam
+  owner: funny team name
   config:
     cleanup.policy: compact
